@@ -1,0 +1,13 @@
+.cv {
+  padding: 40px 20px 60px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.cv__title {
+  margin: 0 0 8px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+  color: var(--color-black);
+}

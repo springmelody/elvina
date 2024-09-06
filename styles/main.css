@@ -1,2 +1,6 @@
 @import url(./global.css);
 @import url(./colors.css);
+@import url(./blocks/header.css);
+@import url(./blocks/nav.css);
+@import url(./blocks/hello.css);
+@import url(./blocks/cv.css);
