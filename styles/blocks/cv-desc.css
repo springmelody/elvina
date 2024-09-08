@@ -1,0 +1,20 @@
+.cv-desc__title {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--color-gray);
+  margin-bottom: 12px;
+}
+
+.cv-desc__list {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.cv-desc__list li {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--color-black);
+  margin-bottom: 20px;
+}

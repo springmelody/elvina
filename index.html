@@ -15,11 +15,9 @@
   </head>
   <body>
     <header class="header">
+      <div class="header__name">Эльвина Захарова</div>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="#hello">Эльвина Захарова</a>
-          </li>
           <li class="nav__item">
             <a class="nav__link" href="#portfolio">Портфолио</a>
           </li>
@@ -34,15 +32,15 @@
     <section class="hello" id="hello">
       <div class="hello__avatar"><img src="ava.png" alt="avatar" /></div>
       <div class="hello__info">
-        <h1 class="hello__title">Эльвина Захарова</h1>
+        <h1 class="hello__title">Продуктовый дизайнер</h1>
         <ul class="hello__about">
-          <li>Продуктовый дизайнер</li>
           <li>Опыт 6+ лет</li>
           <li>Санкт-Петербург</li>
         </ul>
         <p class="hello__text">
           Я&nbsp;старший продуктовый дизайнер в&nbsp;CDEK. Работаю
-          с&nbsp;ERP-системой в&nbsp;вебе и&nbsp;на&nbsp;мобилке.
+          с&nbsp;внутренними продуктами в&nbsp;вебе и&nbsp;на&nbsp;мобилке. Пишу
+          гайдлайны и&nbsp;руководства по&nbsp;работе с&nbsp;задачами.
         </p>
         <p class="hello__text">
           До&nbsp;этого работала в&nbsp;Магнит и&nbsp;отвечала за&nbsp;дизайн
@@ -99,207 +97,217 @@
     <!--     </div> -->
     <!--   </h2> -->
     <!-- </section> -->
+    <section class="process">
+      <h2 class="process__title">Дизайн-процесс</h2>
+
+      <div class="process__step">
+        <div class="process__header">
+          <div class="process__number">1</div>
+          <div class="process__name">Понимание задачи</div>
+        </div>
+        <p class="process__text">
+          Встречаюсь с&nbsp;владельцами бизнес-процессов. Пишу постановку
+          задачи: контекст, проблематика, цели, аудитория, метрики
+          эффективности. Фиксирую одинаковое понимание задачи у&nbsp;всех
+          заинтересованных сторон.
+        </p>
+      </div>
+
+      <div class="process__step">
+        <div class="process__header">
+          <div class="process__number">2</div>
+          <div class="process__name">Discovery</div>
+        </div>
+        <p class="process__text">
+          Изучаю пользователей и&nbsp;контекст использования. Основная
+          цель&nbsp;&mdash; получить глубокое понимание проблемы:
+        </p>
+        <ul class="process__list">
+          <li>аналитика,</li>
+          <li>глубинные интервью,</li>
+          <li>анализ конкурентов,</li>
+          <li>опросы,</li>
+          <li>анализ пользовательского фидбека.</li>
+        </ul>
+      </div>
+
+      <div class="process__step">
+        <div class="process__header">
+          <div class="process__number">3</div>
+          <div class="process__name">Wireframing</div>
+        </div>
+        <p class="process__text">
+          На&nbsp;этом этапе я&nbsp;использую один UX-артефакты: Job/User story,
+          JTBD, User flow, Mind map, Empathy map. После этого перехожу
+          к&nbsp;вайрфреймам и&nbsp;проектированию happy path, планирую
+          презентацию решения команде.
+        </p>
+        <div class="process__img"><img src="" alt="" /></div>
+      </div>
+
+      <div class="process__step">
+        <div class="process__header">
+          <div class="process__number">4</div>
+          <div class="process__name">Юзабилити-тестирование</div>
+        </div>
+        <p class="process__text">
+          Встречаюсь с&nbsp;владельцами бизнес-процессов. Пишу постановку
+          задачи: контекст, проблематика, цели, аудитория, метрики
+          эффективности. Фиксирую одинаковое понимание задачи у&nbsp;всех
+          заинтересованных сторон.
+        </p>
+      </div>
+    </section>
 
     <section class="cv">
       <h2 class="cv__title">CV</h2>
-      <div class="cv__wrap">
-        <div class="cv__job">
-          <div class="cv__block">
-            <div class="cv__position">Senior Product Designer, CDEK</div>
-            <div class="cv__date">
-              С февраля 2024 по настоящее время, 7 месяцев
-            </div>
-          </div>
-          <div class="cv__block">
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Результаты</div>
-              <ul class="cv-desc__list">
-                <li>
-                  Спроектировала флоу подключения CDEK ID&nbsp;в мобильном
-                  приложении. Новый способ позволяет быстрее подключать сервис,
-                  без печати бумажных анкет.
-                </li>
-                <li>
-                  Подготовила редизайн главной приложения. Продумала
-                  масштабирование интерфейса с&nbsp;учётом разных ролей
-                  сотрудников, роста запросов на&nbsp;новые фичи и&nbsp;разделы.
-                </li>
-              </ul>
-            </div>
 
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Задачи</div>
-              <ul class="cv-desc__list">
-                <li>
-                  Готовлю редизайн мобильного приложения для сотрудников CDEK.
-                </li>
-                <li>
-                  Работаю с&nbsp;продуктовыми задачами в&nbsp;мобильном
-                  приложении и&nbsp;на&nbsp;вебе.
-                </li>
-                <li>
-                  Описываю гайдлайны и&nbsp;дизайн-паттерны для дизайнеров.
-                </li>
-                <li>
-                  Провожу UX-исследования (коридорки, юзабилити-тестирования,
-                  глубинные интервью с&nbsp;сотрудниками и&nbsp;экспертами,
-                  опросы).
-                </li>
-                <li>Провожу дизайн-ревью разработки.</li>
-              </ul>
-            </div>
-          </div>
+      <div class="cv__job cv__job--first">
+        <div class="cv__block">
+          <div class="cv__company">CDEK</div>
+          <div class="cv__position">Senior Product Designer</div>
+          <div class="cv__date">С февраля 2024, 7 месяцев</div>
         </div>
 
-        <div class="cv__job">
-          <div class="cv__block">
-            <div class="cv__position">Middle Product Designer, Magnit</div>
-            <div class="cv__date">
-              Октябрь 2022 – февраль 2024, 1 год 5 месяцев
-            </div>
-          </div>
-          <div class="cv__block">
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Результаты</div>
-              <ul class="cv-desc__list">
-                <li>
-                  Спроектировала редизайн&nbsp;UI сайта Магнит Аптеки.
-                  Продумала, как интерфейс изменится с&nbsp;учётом
-                  масштабирования бизнеса. После редизайна конверсия
-                  в&nbsp;добавление товара в&nbsp;корзину увеличилась
-                  на&nbsp;7,4%. Конверсия в&nbsp;оформление заказа увеличилась
-                  на&nbsp;2,4%.
-                </li>
-                <li>
-                  Повлияла на ускорение Time To Market разработки сайта Магнит
-                  Аптеки. Собрала редизайн сайта на компонентах дизайн-системы,
-                  описала правила адаптивности, спроектировала умные локальные
-                  компоненты.
-                </li>
-                <li>
-                  Разработала флоу Аптеки для мобильного приложения
-                  &laquo;Магнит: акции и&nbsp;доставка&raquo;. MAU
-                  приложения&nbsp;&mdash; 19&nbsp;млн. Прирост количества
-                  заказов от&nbsp;недели к&nbsp;недели с&nbsp;момента
-                  запуска&nbsp;&mdash; 25%.
-                </li>
-                <li>
-                  Провела воркшоп по&nbsp;созданию прототипов на&nbsp;переменных
-                  в&nbsp;Figma.
-                </li>
-              </ul>
-            </div>
+        <div class="cv__desc cv-desc">
+          <ul class="cv-desc__list">
+            <li>
+              Готовлю редизайн мобильного приложения для сотрудников CDEK.
+            </li>
+            <li>
+              Работаю с&nbsp;продуктовыми задачами в&nbsp;мобильном приложении
+              и&nbsp;на&nbsp;вебе.
+            </li>
+            <li>Описываю гайдлайны и&nbsp;дизайн-паттерны для дизайнеров.</li>
+            <li>
+              Провожу UX-исследования (коридорки, юзабилити-тестирования,
+              глубинные интервью с&nbsp;сотрудниками и&nbsp;экспертами, опросы).
+            </li>
+            <li>Провожу дизайн-ревью разработки.</li>
+          </ul>
+        </div>
+      </div>
 
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Задачи</div>
-              <ul class="cv-desc__list">
-                <li>
-                  Проектировала веб и&nbsp;мобильный интерфейс для Магнит
-                  Аптеки.
-                </li>
-                <li>
-                  Проводила и&nbsp;заказывала UX-исследования (коридорки,
-                  юзабилити-тестирования, глубинные интервью, опросы).
-                </li>
-                <li>
-                  Презентовала решения продакт-менеджеру, руководителям бизнеса
-                  Магнит Аптеки и&nbsp;дизайн-командам.
-                </li>
-                <li>
-                  Взаимодействовала с&nbsp;фронтенд-разработчиками
-                  и&nbsp;системными аналитиками. Наладила процессы передачи
-                  макетов в&nbsp;разработку, этап дизайн-ревью.
-                </li>
-                <li>
-                  Работала с&nbsp;готовой дизайн-системой, брала задачи
-                  на&nbsp;разработку компонентов для дизайн-системы.
-                </li>
-              </ul>
-            </div>
+      <div class="cv__job">
+        <div class="cv__block">
+          <div class="cv__company">Magnit</div>
+          <div class="cv__position">Middle Product Designer</div>
+          <div class="cv__date">
+            Октябрь 2022 – февраль 2024,<br />
+            1 год 5 месяцев
           </div>
         </div>
-
-        <div class="cv__job">
-          <div class="cv__block">
-            <div class="cv__position">Product designer, Petshop</div>
-            <div class="cv__date">
-              Февраль 2021 – октябрь 2022, 1 год 9 месяцев
-            </div>
-          </div>
-          <div class="cv__block">
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Результаты</div>
-              <ul class="cv-desc__list">
-                <li>
-                  Спроектировала с&nbsp;нуля интерфейс и&nbsp;визуальный стиль
-                  мобильного приложения Petshop.
-                </li>
-                <li>
-                  Подготовила концепцию и&nbsp;дизайн лендингов для проектов
-                  &laquo;Petshop Ветеринария&raquo; и&nbsp;&laquo;Petshop
-                  Забота&raquo;.
-                </li>
-                <li>
-                  Спроектировала UI&nbsp;kit для сайта и&nbsp;мобильных
-                  приложений Petshop.
-                </li>
-                <li>
-                  Написала гайдлайны для дизайнеров. Описала паттерны
-                  и&nbsp;хорошие практики, которыx придерживаются
-                  в&nbsp;Petshop.
-                </li>
-              </ul>
-            </div>
-
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Задачи</div>
-              <ul class="cv-desc__list">
-                <li>
-                  Проектировала интерфейс для мобильных приложений Petshop
-                  и&nbsp;Petshop Выгул.
-                </li>
-                <li>
-                  Презентовала свои решения бизнесу и&nbsp;продакт-менеджерам.
-                </li>
-                <li>
-                  Проводила UX-исследования (коридорки
-                  и&nbsp;юзабилити-тестирования).
-                </li>
-                <li>Проводила дизайн-ревью разработки.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="cv__job">
-          <div class="cv__block">
-            <div class="cv__position">Web designer, Siart</div>
-            <div class="cv__date">
-              Август 2018 – декабрь 2020, 2 года 5 месяцев
-            </div>
-          </div>
-          <div class="cv__block">
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Результаты</div>
-              <ul class="cv-desc__list"></ul>
-            </div>
-
-            <div class="cv__desc cv-desc">
-              <div class="cv-desc__title">Задачи</div>
-              <ul class="cv-desc__list">
-                <li>Занималась дизайном сайтов и&nbsp;лендингов.</li>
-                <li>Создавала UI&nbsp;kit на&nbsp;разных проектах.</li>
-                <li>Адаптировала дизайн под разные устройства.</li>
-                <li>Готовила баннеры, посты в&nbsp;соц.сетях.</li>
-                <li>
-                  Искала и&nbsp;ретушировала изображения, работала
-                  с&nbsp;фотостоками.
-                </li>
-              </ul>
-            </div>
+        <div class="cv__block">
+          <div class="cv__desc cv-desc">
+            <ul class="cv-desc__list">
+              <li>
+                Спроектировала редизайн&nbsp;UI сайта Магнит Аптеки. Продумала,
+                как интерфейс изменится с&nbsp;учётом масштабирования бизнеса.
+                После редизайна конверсия в&nbsp;добавление товара
+                в&nbsp;корзину увеличилась на&nbsp;7,4%. Конверсия
+                в&nbsp;оформление заказа увеличилась на&nbsp;2,4%.
+              </li>
+              <li>
+                Повлияла на ускорение Time To Market разработки сайта Магнит
+                Аптеки. Собрала редизайн сайта на компонентах дизайн-системы,
+                описала правила адаптивности, спроектировала умные локальные
+                компоненты.
+              </li>
+              <li>
+                Разработала флоу Аптеки для мобильного приложения &laquo;Магнит:
+                акции и&nbsp;доставка&raquo;. MAU приложения&nbsp;&mdash;
+                19&nbsp;млн. Прирост количества заказов от&nbsp;недели
+                к&nbsp;недели с&nbsp;момента запуска&nbsp;&mdash; 25%.
+              </li>
+              <li>
+                Провела воркшоп по&nbsp;созданию прототипов на&nbsp;переменных
+                в&nbsp;Figma.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+
+      <div class="cv__job">
+        <div class="cv__block">
+          <div class="cv__company">Petshop</div>
+          <div class="cv__position">Product designer</div>
+          <div class="cv__date">
+            Февраль 2021 – октябрь 2022,<br />
+            1 год 9 месяцев
+          </div>
+        </div>
+        <div class="cv__block">
+          <div class="cv__desc cv-desc">
+            <ul class="cv-desc__list">
+              <li>
+                Спроектировала с&nbsp;нуля интерфейс и&nbsp;визуальный стиль
+                мобильного приложения Petshop.
+              </li>
+              <li>
+                Подготовила концепцию и&nbsp;дизайн лендингов для проектов
+                &laquo;Petshop Ветеринария&raquo; и&nbsp;&laquo;Petshop
+                Забота&raquo;.
+              </li>
+              <li>
+                Спроектировала UI&nbsp;kit для сайта и&nbsp;мобильных приложений
+                Petshop.
+              </li>
+              <li>
+                Написала гайдлайны для дизайнеров. Описала паттерны
+                и&nbsp;хорошие практики, которыx придерживаются в&nbsp;Petshop.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv__job">
+        <div class="cv__block">
+          <div class="cv__company">Siart</div>
+          <div class="cv__position">Web designer</div>
+          <div class="cv__date">
+            Август 2018 – декабрь 2020,<br />
+            2 года 5 месяцев
+          </div>
+        </div>
+        <div class="cv__block">
+          <div class="cv__desc cv-desc">
+            <ul class="cv-desc__list">
+              <li>Занималась дизайном сайтов и&nbsp;лендингов.</li>
+              <li>Создавала UI&nbsp;kit на&nbsp;разных проектах.</li>
+              <li>Адаптировала дизайн под разные устройства.</li>
+              <li>Готовила баннеры, посты в&nbsp;соц.сетях.</li>
+              <li>
+                Искала и&nbsp;ретушировала изображения, работала
+                с&nbsp;фотостоками.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="about__title">Ещё кое‑что обо мне</h2>
+      <ul class="about__list">
+        <li class="about__item">
+          Решила стать дизайнером после того, как случайно заблокировала счёт
+          клиента (я&nbsp;работала в&nbsp;поддержке банка). Тогда я&nbsp;очень
+          испугалась и&nbsp;подошла к&nbsp;разработчику, объяснила ситуацию.
+          И&nbsp;он&nbsp;добавил по&nbsp;нажатию на&nbsp;кнопку блокировки
+          модалку с&nbsp;подписью: &laquo;Точно заблокировать? Волосы&nbsp;же
+          на&nbsp;себе рвать будешь?!&raquo;, и&nbsp;пульнул
+          её&nbsp;на&nbsp;прод.
+        </li>
+        <li class="about__item">
+          5&nbsp;лет работала археологом и&nbsp;хотела стать учёным. Жила
+          в&nbsp;палатках с&nbsp;гремучими змеями и&nbsp;сидела вечерами
+          у&nbsp;костра.
+        </li>
+        <li class="about__item">Вдохновляюсь документальной фотографией.</li>
+        <li class="about__item">Адепт доказательной медицины.</li>
+      </ul>
+      <div class="about__img"><img src="about-img.png" alt="avatar" /></div>
     </section>
   </body>
 </html>

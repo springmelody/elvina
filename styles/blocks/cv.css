@@ -1,13 +1,46 @@
 .cv {
-  padding: 40px 20px 60px;
+  padding: 30px 20px 30px;
   max-width: 1120px;
   margin: 0 auto;
 }
 
 .cv__title {
-  margin: 0 0 8px;
-  font-size: 40px;
-  line-height: 48px;
+  margin: 0 0 24px;
+  font-size: 32px;
+  line-height: 38px;
   font-weight: 600;
   color: var(--color-black);
+}
+
+.cv__job {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--color-black);
+}
+
+.cv__job--first {
+  border-top: 1px solid var(--color-black);
+}
+
+.cv__company {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 16px;
+}
+
+.cv__position {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  color: var(--color-black);
+  margin-bottom: 4px;
+}
+
+.cv__date {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--color-gray);
+  margin-bottom: 10px;
 }
