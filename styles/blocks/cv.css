@@ -5,10 +5,6 @@
 
 .cv__title {
   margin: 0 0 24px;
-  font-size: 32px;
-  line-height: 38px;
-  font-weight: 800;
-  color: var(--color-black);
 }
 
 .cv__job {
@@ -42,4 +38,35 @@
   font-weight: 400;
   color: var(--color-gray);
   margin-bottom: 20px;
+}
+
+@media (min-width: 1280px) {
+  .cv {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .cv__title {
+    margin-bottom: 30px;
+  }
+
+  .cv__job {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+  }
+
+  .cv__block {
+    width: 38%;
+    padding-right: 30px;
+  }
+
+  .cv__desc {
+    width: 62%;
+  }
+
+  .cv__company {
+    font-size: 24px;
+    line-height: 29px;
+  }
 }

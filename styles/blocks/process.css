@@ -5,10 +5,6 @@
 
 .process__title {
   margin: 0 0 28px;
-  font-size: 32px;
-  line-height: 38px;
-  font-weight: 800;
-  color: var(--color-black);
 }
 
 .process__step {
@@ -87,4 +83,33 @@
   display: block;
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 1280px) {
+  .process {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .process__title {
+    margin-bottom: 50px;
+  }
+
+  .process__name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .process__step {
+    margin-bottom: 38px;
+  }
+
+  .process__text {
+    max-width: 534px;
+  }
+
+  .process__img {
+    max-width: 534px;
+    margin-top: 23px;
+  }
 }

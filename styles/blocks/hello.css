@@ -30,7 +30,7 @@
 }
 
 .hello__text {
-  max-width: 790px;
+  max-width: 750px;
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
@@ -50,6 +50,31 @@
 @media (min-width: 1280px) {
   .hello {
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+  }
+
+  .hello__avatar {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 40px;
+  }
+
+  .hello__about {
+    margin-bottom: 24px;
+  }
+
+  .hello__text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .hello__links {
+    margin-top: 24px;
+  }
+
+  .hello__links a {
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 23px;
   }
 }

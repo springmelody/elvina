@@ -11,6 +11,11 @@ body {
   position: relative;
 }
 
+.wrap {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .title {
   letter-spacing: 1px;
   font-size: 32px;
@@ -20,24 +25,31 @@ body {
 }
 
 .container {
-  padding-left: 16px;
-  padding-right: 16px;
   max-width: 1280px;
   margin: 0 auto;
 }
 
 @media (min-width: 1280px) {
-  body {
+  .wrap {
     display: flex;
-  }
-
-  .container {
+    max-width: 1280px;
+    margin: 0 auto;
     padding-left: 80px;
     padding-right: 80px;
   }
 
+  .container {
+    width: auto;
+    margin: 0;
+  }
+
   main {
     order: -1;
-    padding-right: 80px;
+    width: 76%;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 48px;
   }
 }
