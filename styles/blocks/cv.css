@@ -1,5 +1,5 @@
 .cv {
-  padding: 30px 20px 30px;
+  padding: 30px 16px 30px;
   max-width: 1120px;
   margin: 0 auto;
 }
@@ -8,12 +8,12 @@
   margin: 0 0 24px;
   font-size: 32px;
   line-height: 38px;
-  font-weight: 600;
+  font-weight: 800;
   color: var(--color-black);
 }
 
 .cv__job {
-  padding: 24px 0;
+  padding: 24px 0 7px;
   border-bottom: 1px solid var(--color-black);
 }
 
@@ -42,5 +42,5 @@
   line-height: 19px;
   font-weight: 400;
   color: var(--color-gray);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }

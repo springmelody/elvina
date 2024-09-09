@@ -14,25 +14,40 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="#portfolio">Портфолио</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#cv">CV</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#process">Дизайн-процесс</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#about">Обо мне</a>
+        </li>
+      </ul>
+      <ul class="nav__list">
+        <a class="nav__link" href="https://t.me/elvinaza">Telegram</a>
+        <a
+          class="nav__link"
+          href="https://www.linkedin.com/in/elvina-zakharova-25a563173?trk=conversation-details-page_thread_thread-items-group_participants-profile-card_member-image"
+          >Linkedin</a
+        >
+        <a class="nav__link" href="mailto:elvinainhist@gmail.com ">E-mail</a>
+      </ul>
+    </nav>
     <header class="header">
       <div class="header__name">Эльвина Захарова</div>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="#portfolio">Портфолио</a>
-          </li>
-          <li class="nav__item"><a class="nav__link" href="#cv">CV</a></li>
-          <li class="nav__item">
-            <a class="nav__link" href="https://t.me/elvinaza">Telegram</a>
-          </li>
-        </ul>
-      </nav>
+      <button class="burger">X</button>
     </header>
 
     <section class="hello" id="hello">
       <div class="hello__avatar"><img src="ava.png" alt="avatar" /></div>
       <div class="hello__info">
-        <h1 class="hello__title">Продуктовый дизайнер</h1>
+        <h1 class="hello__title title">Продуктовый дизайнер</h1>
         <ul class="hello__about">
           <li>Опыт 6+ лет</li>
           <li>Санкт-Петербург</li>
@@ -66,41 +81,56 @@
       </div>
     </section>
 
-    <section class="portfolio">
-      <h2 class="portfolio__title">
-        <div class="portfolio__row">
-          <div class="portfolio__item case">
-            <div class="case__img"></div>
-            <h3 class="case__title">
-              Подключение CDEK ID&nbsp;в приложении для сотрудников
-            </h3>
-            <ul class="case__tags">
-              <li class="case__tag">B2B</li>
-              <li class="case__tag">Mobile App</li>
-              <li class="case__tag">Research</li>
-              <li class="case__tag">Prototyping</li>
-              <li class="case__tag">Usability Testing</li>
-            </ul>
-          </div>
-
-          <div class="portfolio__item case">
-            <div class="case__img"></div>
-            <h3 class="case__title">Редизайн сайта Магнит Аптеки</h3>
-            <ul class="case__tags">
-              <li class="case__tag">B2С</li>
-              <li class="case__tag">Web</li>
-              <li class="case__tag">Research</li>
-              <li class="case__tag">Prototyping</li>
-              <li class="case__tag">Usability Testing</li>
-            </ul>
-          </div>
+    <section class="portfolio" id="portfolio">
+      <h2 class="portfolio__title title">Портфолио</h2>
+      <div class="portfolio__row">
+        <div class="portfolio__item case">
+          <div class="case__img"><img src="cdek.png" alt="Сдэк" /></div>
+          <h3 class="case__title">Подключение CDEK ID</h3>
+          <ul class="case__tags">
+            <li class="case__tag">NDA</li>
+            <li class="case__tag">B2B</li>
+            <li class="case__tag">Mobile App</li>
+          </ul>
         </div>
-      </h2>
+
+        <div class="portfolio__item case">
+          <div class="case__img">
+            <img src="magnit-main.png" alt="Магнит" />
+          </div>
+          <h3 class="case__title">Редизайн сайта Магнит Аптеки</h3>
+          <ul class="case__tags">
+            <li class="case__tag">B2С</li>
+            <li class="case__tag">Web</li>
+          </ul>
+        </div>
+
+        <div class="portfolio__item case">
+          <div class="case__img">
+            <img src="magnit-order.png" alt="Магнит заказ" />
+          </div>
+          <h3 class="case__title">
+            Оформление заказа на&nbsp;сайте Магнит Аптеки
+          </h3>
+          <ul class="case__tags">
+            <li class="case__tag">B2С</li>
+            <li class="case__tag">Web</li>
+          </ul>
+        </div>
+
+        <div class="portfolio__item case">
+          <div class="case__img"><img src="petshop.png" alt="Петшоп" /></div>
+          <h3 class="case__title">Мобильное приложение Petshop</h3>
+          <ul class="case__tags">
+            <li class="case__tag">B2B</li>
+            <li class="case__tag">Mobile App</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section class="cv">
-      <h2 class="cv__title">CV</h2>
-
+    <section class="cv" id="cv">
+      <h2 class="cv__title title">CV</h2>
       <div class="cv__job cv__job--first">
         <div class="cv__block">
           <div class="cv__company">CDEK</div>
@@ -227,8 +257,8 @@
       </div>
     </section>
 
-    <section class="process">
-      <h2 class="process__title">Дизайн-процесс</h2>
+    <section class="process" id="process">
+      <h2 class="process__title title">Дизайн-процесс</h2>
 
       <div class="process__step">
         <div class="process__header">
@@ -272,7 +302,7 @@
           к&nbsp;вайрфреймам и&nbsp;проектированию happy path, планирую
           презентацию решения команде.
         </p>
-        <div class="process__img"><img src="" alt="" /></div>
+        <div class="process__img"><img src="3step.png" alt="3 шаг" /></div>
       </div>
 
       <div class="process__step">
@@ -297,7 +327,7 @@
           Описываю все пользовательские сценарии и&nbsp;корнер-кейсы, состояния
           ошибок и&nbsp;загрузки, валидация и&nbsp;тд.
         </p>
-        <div class="process__img"><img src="" alt="" /></div>
+        <div class="process__img"><img src="5step.png" alt="5 шаг" /></div>
       </div>
 
       <div class="process__step">
@@ -308,7 +338,7 @@
         <p class="process__text">
           Провожу 2-3 итерации дизайн-ревью. Определяю критичность комментариев.
         </p>
-        <div class="process__img"><img src="" alt="" /></div>
+        <div class="process__img"><img src="6step.png" alt="6 шаг" /></div>
       </div>
 
       <div class="process__step">
@@ -322,8 +352,8 @@
         </p>
       </div>
     </section>
-    <section class="about">
-      <h2 class="about__title">Ещё кое‑что обо мне</h2>
+    <section class="about" id="about">
+      <h2 class="about__title title">Ещё кое‑что обо мне</h2>
       <ul class="about__list">
         <li class="about__item">
           Решила стать дизайнером после того, как случайно заблокировала счёт
@@ -345,4 +375,5 @@
       <div class="about__img"><img src="about-img.png" alt="avatar" /></div>
     </section>
   </body>
+  <script src="index.js"></script>
 </html>

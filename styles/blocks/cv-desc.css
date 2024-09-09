@@ -8,7 +8,7 @@
 
 .cv-desc__list {
   margin: 0;
-  padding-left: 24px;
+  padding-left: 25px;
 }
 
 .cv-desc__list li {
@@ -16,5 +16,5 @@
   line-height: 19px;
   font-weight: 400;
   color: var(--color-black);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }

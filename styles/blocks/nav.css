@@ -1,24 +1,29 @@
 .nav {
   display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 78px;
+  min-height: 500px;
+  background-color: var(--color-white);
+  padding: 60px 16px 20px;
+}
+
+.nav--open {
+  display: block;
 }
 
 .nav__list {
-  display: none;
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 24px;
-  justify-content: center;
 }
 
-.nav__item:first-child {
-  margin-right: auto;
-}
-
-.nav__item:last-child {
-  margin-left: auto;
+.nav__list:first-child {
+  margin-bottom: 60px;
 }
 
 .nav__link {
