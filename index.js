@@ -11,6 +11,7 @@ navLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
     nav.classList.remove("nav--open");
+    nav.classList.remove("burger--open");
     document
       .querySelector(link.getAttribute("href"))
       .scrollIntoView({ behavior: "smooth" });
