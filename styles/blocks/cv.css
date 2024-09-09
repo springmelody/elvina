@@ -1,7 +1,6 @@
 .cv {
-  padding: 30px 16px 30px;
-  max-width: 1120px;
-  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .cv__title {

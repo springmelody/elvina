@@ -1,7 +1,6 @@
 .about {
-  padding: 30px 16px 24px;
-  max-width: 1120px;
-  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 24px;
 }
 
 .about__title {
