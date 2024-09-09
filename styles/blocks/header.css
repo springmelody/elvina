@@ -44,8 +44,8 @@
 
 .burger--open .burger__top {
   backface-visibility: hidden;
-  top: 15px;
-  transform: rotate(50deg);
+  top: 10px;
+  transform: rotate(45deg);
   transition: 0.55s 0.5s;
 }
 .burger--open .burger__middle {
@@ -53,8 +53,8 @@
 }
 .burger--open .burger__bottom {
   backface-visibility: hidden;
-  top: 15px;
-  transform: rotate(-410deg);
+  top: 10px;
+  transform: rotate(-45deg);
   transition: 0.55s 0.5s;
 }
 
