@@ -9,6 +9,7 @@
 
 .case {
   margin-bottom: 40px;
+  text-decoration: none;
 }
 
 .case:last-child {
