@@ -5,7 +5,7 @@ export default {
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        redisign: resolve(__dirname, "redisign.html"),
+        redesign: resolve(__dirname, "redesign.html"),
         order: resolve(__dirname, "order.html"),
         mobile: resolve(__dirname, "mobile.html"),
       },

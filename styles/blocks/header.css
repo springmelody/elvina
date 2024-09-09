@@ -46,7 +46,7 @@
   backface-visibility: hidden;
   top: 10px;
   transform: rotate(45deg);
-  transition: 0.55s 0.5s;
+  transition: 0.5s;
 }
 .burger--open .burger__middle {
   opacity: 0;
@@ -55,7 +55,7 @@
   backface-visibility: hidden;
   top: 10px;
   transform: rotate(-45deg);
-  transition: 0.55s 0.5s;
+  transition: 0.5s;
 }
 
 @media (min-width: 1280px) {
