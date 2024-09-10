@@ -1,6 +1,11 @@
 .inner {
   max-width: 1120px;
   margin: 0 auto;
+  padding: 30px 16px 24px;
+}
+
+.inner__title {
+  margin: 0 0 24px 0;
 }
 
 .slide {
@@ -11,4 +16,58 @@
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.inner__block {
+  max-width: 550px;
+}
+
+.inner__name {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.inner__text {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.inner__list {
+  margin: 13px 0 0;
+  padding-left: 24px;
+}
+
+.inner__list li {
+  margin-bottom: 16px;
+}
+
+.inner__block {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 1280px) {
+  .inner {
+    padding: 30px 80px 50px;
+  }
+
+  .inner__title {
+    margin-bottom: 40px;
+  }
+
+  .inner__name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .inner__text {
+    max-width: 534px;
+  }
+
+  .inner__block {
+    margin-bottom: 35px;
+  }
 }
