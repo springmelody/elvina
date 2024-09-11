@@ -40,6 +40,19 @@
 
 .hello__text a {
   color: var(--color-black);
+  position: relative;
+  text-decoration: none;
+}
+
+.hello__text a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  right: 0;
+  background-color: var(--color-black);
 }
 
 .hello__links {
