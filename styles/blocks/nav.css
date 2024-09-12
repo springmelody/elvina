@@ -11,6 +11,7 @@
 
 .nav--open {
   display: block;
+  z-index: 2;
 }
 
 .nav__list {
