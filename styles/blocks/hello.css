@@ -49,7 +49,7 @@
   display: block;
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1px;
   left: 0;
   right: 0;
   background-color: var(--color-black);
@@ -75,7 +75,7 @@
   display: block;
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1px;
   left: 0;
   right: 0;
   background-color: var(--color-black);
