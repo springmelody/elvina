@@ -58,7 +58,6 @@
         </div>
       </nav>
       <header class="header container">
-        <div class="header__name">Эльвина Захарова</div>
         <div class="burger">
           <span class="burger__global burger__top"></span>
           <span class="burger__global burger__middle"></span>
@@ -67,46 +66,76 @@
       </header>
       <main>
         <section class="hello container" id="hello">
-          <div class="hello__avatar"><img src="ava.png" alt="avatar" /></div>
-          <div class="hello__info">
-            <h1 class="hello__title title">Продуктовый дизайнер</h1>
+          <header class="hello__header">
+            <h1 class="hello__title title">Эльвина Захарова</h1>
             <ul class="hello__about">
               <li>Опыт 6+ лет</li>
               <li>·</li>
               <li>Санкт-Петербург</li>
             </ul>
+          </header>
+          <div class="hello__info">
+            <div class="hello__avatar avatar">
+              <img src="ava.png" alt="avatar" />
+              <div class="avatar__wrap">
+                <div class="avatar__circle avatar__circle--1"></div>
+                <div class="avatar__circle avatar__circle--2"></div>
+                <div class="avatar__circle avatar__circle--3"></div>
+                <div class="avatar__circle avatar__circle--4"></div>
+                <div class="avatar__circle avatar__circle--5"></div>
+                <div class="avatar__circle avatar__circle--6"></div>
+                <div class="avatar__circle avatar__circle--7"></div>
+              </div>
+            </div>
             <p class="hello__text">
-              Я&nbsp;старший продуктовый дизайнер в&nbsp;
-              <a href="https://www.cdek.ru/ru/" target="_blank">CDEK</a>.
+              Я&nbsp;старший продуктовый дизайнер
+              <a href="https://www.cdek.ru/ru/" target="_blank">в&nbsp;CDEK.</a>
               Работаю с&nbsp;внутренними продуктами в&nbsp;вебе
               и&nbsp;на&nbsp;мобилке. Пишу гайдлайны и&nbsp;руководства
               по&nbsp;работе с&nbsp;задачами.
             </p>
             <p class="hello__text">
-              До&nbsp;этого работала в&nbsp;
-              <a href="https://apteka.magnit.ru/" target="_blank">Магнит</a>
+              До&nbsp;этого работала
+              <a href="https://apteka.magnit.ru/" target="_blank"
+                >в&nbsp;Магнит</a
+              >
               и&nbsp;отвечала за&nbsp;дизайн Аптек. Спроектировала редизайн
-              сайта Магнит Аптеки и&nbsp;разработала флоу аптек для мобильного
-              приложения с&nbsp;MAU 19&nbsp;млн пользователей.
-            </p>
-            <p class="hello__text">
-              Мне нравится расследовать и&nbsp;работать с&nbsp;задачами высокой
-              степени неопределённости. Планирую и&nbsp;декомпозирую задачи,
-              чтобы этапы работы были прозрачны для всей команды. Ещё
-              со&nbsp;мной комфортно работать&nbsp;&mdash; слушаю других, умею
-              экологично спорить.
+              сайта Магнит Аптеки и&nbsp;флоу для мобильного приложения
+              с&nbsp;MAU 19&nbsp;млн пользователей.
             </p>
             <div class="hello__links">
-              <a href="https://t.me/elvinaza">Telegram</a>
-              <span>·</span>
-              <a
-                href="https://www.linkedin.com/in/elvina-zakharova-25a563173?trk=conversation-details-page_thread_thread-items-group_participants-profile-card_member-image"
-                >Linkedin</a
-              >
-              <span>·</span>
-              <a href="mailto:elvinainhist@gmail.com ">E-mail</a>
+              <a href="https://t.me/elvinaza">Написать в Telegram</a>
+              <a href="">скачать CV</a>
             </div>
           </div>
+        </section>
+        <section class="superpower container">
+          <h2 class="superpower__title title">Мои суперсилы</h2>
+          <ul class="superpower__list">
+            <li class="superpower__item">
+              <p class="superpower__text">
+                Мне нравится работать с&nbsp;задачами высокой степени
+                неопределённости.
+              </p>
+              <span class="superpower__number">1</span>
+            </li>
+
+            <li class="superpower__item">
+              <p class="superpower__text">
+                Планирую и&nbsp;декомпозирую задачи, чтобы этапы работы были
+                прозрачны для всей команды.
+              </p>
+              <span class="superpower__number">2</span>
+            </li>
+
+            <li class="superpower__item">
+              <p class="superpower__text">
+                Ещё со&nbsp;мной комфортно работать&nbsp;&mdash; слышу других,
+                умею экологично спорить и&nbsp;аргументировать свои решения.
+              </p>
+              <span class="superpower__number">3</span>
+            </li>
+          </ul>
         </section>
 
         <section class="portfolio container" id="portfolio">
@@ -159,36 +188,47 @@
           </div>
         </section>
 
-        <section class="cv container" id="cv">
-          <h2 class="cv__title title">CV</h2>
-          <div class="cv__job cv__job--first">
-            <div class="cv__block">
-              <div class="cv__company">CDEK</div>
-              <div class="cv__position">Senior Product Designer</div>
-              <div class="cv__date">С февраля 2024, 7 месяцев</div>
+        <section class="current-work">
+          <h2 class="current-work__title title">Что делаю в CDEK</h2>
+          <div class="current-work__wrap">
+            <div class="current-work__block">
+              <div class="current-work__item">
+                <p class="current-work__subtitle">
+                  Работаю c&nbsp;задачами в&nbsp;вебе и&nbsp;на&nbsp;мобилке
+                </p>
+                <p class="current-work__text">
+                  От&nbsp;постановки до&nbsp;анализа результатов. В&nbsp;связке
+                  с&nbsp;бизнесом, разработкой, другими дизайнерами
+                  и&nbsp;UX-редакторами.
+                </p>
+              </div>
             </div>
 
-            <div class="cv__desc cv-desc">
-              <ul class="cv-desc__list">
-                <li>
-                  Готовлю редизайн мобильного приложения для сотрудников CDEK.
-                </li>
-                <li>
-                  Работаю с&nbsp;продуктовыми задачами в&nbsp;мобильном
-                  приложении и&nbsp;на&nbsp;вебе.
-                </li>
-                <li>
-                  Описываю гайдлайны и&nbsp;дизайн-паттерны для дизайнеров.
-                </li>
-                <li>
-                  Провожу UX-исследования (коридорки, юзабилити-тестирования,
-                  глубинные интервью с&nbsp;сотрудниками и&nbsp;экспертами,
-                  опросы).
-                </li>
-              </ul>
+            <div class="current-work__block">
+              <div class="current-work__item">
+                <p class="current-work__subtitle">Провожу UX-исследования</p>
+                <p class="current-work__text">
+                  Коридорки, юзабилити-тестирования, продуктовые интервью
+                  с&nbsp;сотрудниками и&nbsp;экспертами, опросы.
+                </p>
+              </div>
+            </div>
+
+            <div class="current-work__block">
+              <div class="current-work__item">
+                <p class="current-work__subtitle">
+                  Провожу дизайн-ревью разработки
+                </p>
+                <p class="current-work__text">
+                  Общаюсь с разработчиками для реализации дизайна
+                </p>
+              </div>
             </div>
           </div>
+        </section>
 
+        <section class="cv container" id="cv">
+          <h2 class="cv__title title">Результаты</h2>
           <div class="cv__job">
             <div class="cv__block">
               <div class="cv__company">Magnit</div>
@@ -199,31 +239,60 @@
               </div>
             </div>
             <div class="cv__desc cv-desc">
-              <ul class="cv-desc__list">
+              <ul class="desc-custom">
                 <li>
-                  Спроектировала редизайн&nbsp;UI сайта Магнит Аптеки.
-                  Продумала, как интерфейс изменится с&nbsp;учётом
-                  масштабирования бизнеса. После редизайна конверсия
-                  в&nbsp;добавление товара в&nbsp;корзину увеличилась
-                  на&nbsp;7,4%. Конверсия в&nbsp;оформление заказа увеличилась
-                  на&nbsp;2,4%.
+                  <p class="desc-custom__title">
+                    Спроектировала редизайн сайта Магнит Аптеки
+                  </p>
+                  <div class="desc-custom__wrap">
+                    <div class="desc-custom__block">
+                      <span class="desc-custom__number">+7,4%</span>
+                      <p class="desc-custom__text">
+                        Конверсия в&nbsp;добавление товара в&nbsp;корзину
+                      </p>
+                    </div>
+
+                    <div class="desc-custom__block">
+                      <span class="desc-custom__number">+2,4%</span>
+                      <p class="desc-custom__text">
+                        Конверсия в&nbsp;оформление заказа
+                      </p>
+                    </div>
+                  </div>
                 </li>
+
                 <li>
-                  Повлияла на ускорение Time To Market разработки сайта Магнит
-                  Аптеки. Собрала редизайн сайта на компонентах дизайн-системы,
-                  описала правила адаптивности, спроектировала умные локальные
-                  компоненты.
+                  <p class="desc-custom__title">
+                    Разработала флоу Аптеки для мобильного приложения
+                    &laquo;Магнит: акции и&nbsp;доставка&raquo;
+                  </p>
+                  <div class="desc-custom__wrap">
+                    <div class="desc-custom__block">
+                      <span class="desc-custom__number">+25%</span>
+                      <p class="desc-custom__text">
+                        Прирост количества заказов от&nbsp;недели к&nbsp;недели
+                        с&nbsp;момента запуска
+                      </p>
+                    </div>
+
+                    <div class="desc-custom__block">
+                      <span class="desc-custom__number">19 млн.</span>
+                      <p class="desc-custom__text">MAU приложения</p>
+                    </div>
+                  </div>
                 </li>
+
                 <li>
-                  Разработала флоу Аптеки для мобильного приложения
-                  &laquo;Магнит: акции и&nbsp;доставка&raquo;. MAU
-                  приложения&nbsp;&mdash; 19&nbsp;млн. Прирост количества
-                  заказов от&nbsp;недели к&nbsp;недели с&nbsp;момента
-                  запуска&nbsp;&mdash; 25%.
-                </li>
-                <li>
-                  Провела воркшоп по&nbsp;созданию прототипов на&nbsp;переменных
-                  в&nbsp;Figma.
+                  <p class="desc-custom__title">
+                    Ускорила Time To&nbsp;Market разработки сайта Магнит Аптеки
+                  </p>
+                  <div class="desc-custom__block desc-custom__block--last">
+                    <p class="desc-custom__text">
+                      Собрала редизайн сайта на&nbsp;компонентах дизайн-системы,
+                      описала правила адаптивности, спроектировала умные
+                      локальные компоненты.
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>

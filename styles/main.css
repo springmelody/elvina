@@ -3,7 +3,10 @@
 @import url(./blocks/header.css);
 @import url(./blocks/nav.css);
 @import url(./blocks/hello.css);
+@import url(./blocks/avatar.css);
+@import url(./blocks/superpower.css);
 @import url(./blocks/portfolio.css);
+@import url(./blocks/current-work.css);
 @import url(./blocks/cv.css);
 @import url(./blocks/cv-desc.css);
 @import url(./blocks/about.css);
