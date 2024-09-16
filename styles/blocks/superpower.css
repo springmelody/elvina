@@ -62,21 +62,24 @@
   }
 
   .superpower__item:nth-child(1) .superpower__block {
-    height: 230px;
+    height: 229px;
   }
 
   .superpower__item:nth-child(2) .superpower__block {
-    height: 273px;
+    height: 251px;
   }
 
   .superpower__item:nth-child(3) .superpower__block {
-    height: 250px;
+    height: 273px;
   }
 
   .superpower__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+  }
+
+  .superpower__item {
+    width: 33.33%;
   }
 
   .superpower__title {

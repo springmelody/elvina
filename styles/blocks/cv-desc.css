@@ -70,11 +70,34 @@
     top: -21px;
   }
 
+  .desc-custom__title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .desc-custom__wrap {
+    flex-direction: row;
+  }
+
   .desc-custom__block {
     width: 50%;
   }
 
   .desc-custom__block--last {
     width: 100%;
+  }
+
+  .desc-custom li {
+    padding: 22px;
+  }
+
+  .desc-custom__number {
+    font-size: 32px;
+    line-height: 43px;
+  }
+
+  .desc-custom__block:nth-child(2) {
+    padding-right: 0;
+    padding-left: 12px;
   }
 }

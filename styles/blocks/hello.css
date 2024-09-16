@@ -121,8 +121,12 @@
     line-height: 27px;
   }
 
+  .hello__header {
+    border-bottom: 1px solid var(--color-black);
+  }
+
   .hello__info {
-    padding-top: 120px;
+    padding-top: 60px;
   }
   .hello__title {
     font-size: 56px;
@@ -140,12 +144,30 @@
   }
 
   .hello__links {
-    margin-top: 45px;
+    margin-top: 39px;
     gap: 15px;
   }
 
   .hello__links a {
     font-size: 20px;
     line-height: 27px;
+  }
+
+  .hello__links a:nth-child(1) {
+    width: 259px;
+  }
+
+  .hello__links a:nth-child(2) {
+    width: 173px;
+  }
+
+  .hello__links a:nth-child(1)::before {
+    left: 16px;
+    top: 10px;
+  }
+
+  .hello__links a:nth-child(2)::before {
+    left: 16px;
+    top: 10px;
   }
 }

@@ -33,13 +33,13 @@
 
 @media (min-width: 1280px) {
   .about {
-    padding-top: 50px;
+    padding-top: 104px;
     padding-bottom: 50px;
   }
 
   .about__item {
     font-size: 24px;
-    line-height: 29px;
+    line-height: 33px;
   }
 
   .about__title {

@@ -41,7 +41,7 @@
 @media (min-width: 1280px) {
   .cv {
     padding-top: 100px;
-    padding-bottom: 104px;
+    padding-bottom: 64px;
   }
 
   .cv__title {
@@ -49,9 +49,13 @@
   }
 
   .cv__job {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 34px;
+    padding-bottom: 25px;
     display: flex;
+  }
+
+  .cv__job:last-child {
+    padding-bottom: 45px;
   }
 
   .cv__block {
