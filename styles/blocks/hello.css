@@ -71,7 +71,7 @@
 
 .hello__links a {
   width: 100%;
-  max-width: 328px;
+  max-width: 639px;
   text-decoration: none;
   font-size: 16px;
   line-height: 21px;
@@ -79,27 +79,12 @@
   color: var(--color-black);
   position: relative;
   border: 1px solid var(--color-black);
-  padding: 9px 10px 10px 37px;
+  padding: 9px 10px 10px 10px;
   text-align: center;
-  position: relative;
-}
-
-.hello__links a::before {
-  position: absolute;
-  display: block;
-  width: 24px;
-  height: 24px;
-  left: 68px;
-  top: 8px;
-}
-
-.hello__links a:nth-child(1)::before {
-  content: url(/icons/send.svg);
-}
-
-.hello__links a:nth-child(2)::before {
-  content: url(/icons/export.svg);
-  left: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .hello__links span {
@@ -148,7 +133,7 @@
     gap: 15px;
   }
 
-  .hello__links a {
+  .hello__links span {
     font-size: 20px;
     line-height: 27px;
   }
@@ -159,15 +144,5 @@
 
   .hello__links a:nth-child(2) {
     width: 173px;
-  }
-
-  .hello__links a:nth-child(1)::before {
-    left: 16px;
-    top: 10px;
-  }
-
-  .hello__links a:nth-child(2)::before {
-    left: 16px;
-    top: 10px;
   }
 }
