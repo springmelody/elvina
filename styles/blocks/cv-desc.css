@@ -91,6 +91,14 @@
     padding: 22px;
   }
 
+  .desc-custom li {
+    margin-bottom: 8px;
+  }
+
+  .desc-custom li:last-child {
+    margin-bottom: 0;
+  }
+
   .desc-custom__number {
     font-size: 32px;
     line-height: 43px;
@@ -98,6 +106,6 @@
 
   .desc-custom__block:nth-child(2) {
     padding-right: 0;
-    padding-left: 12px;
+    padding-left: 0;
   }
 }
