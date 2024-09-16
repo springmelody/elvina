@@ -13,10 +13,10 @@
 
 .cv-desc__list li {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 21px;
   font-weight: 400;
   color: var(--color-black);
-  margin-bottom: 16px;
+  margin-bottom: 17px;
 }
 
 .desc-custom {
@@ -26,21 +26,23 @@
 }
 
 .desc-custom li {
-  padding: 24px;
+  padding: 16px;
   margin-bottom: 16px;
   background-color: #f5feb8;
 }
 
 .desc-custom__title {
   margin: 0 0 40px 0;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 21px;
   font-weight: 700;
 }
 
 .desc-custom__wrap {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .desc-custom__block {
@@ -49,10 +51,10 @@
 
 .desc-custom__number {
   display: block;
-  font-size: 32px;
-  line-height: 43px;
+  font-size: 28px;
+  line-height: 38px;
   font-weight: 800;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .desc-custom__text {

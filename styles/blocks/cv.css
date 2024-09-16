@@ -1,10 +1,9 @@
 .cv {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 62px 0 30px;
 }
 
 .cv__title {
-  margin: 0 0 24px;
+  margin: 0 0 5px;
 }
 
 .cv__job {
@@ -21,14 +20,14 @@
   line-height: 24px;
   font-weight: 700;
   color: var(--color-black);
-  margin-bottom: 16px;
+  margin-bottom: 19px;
 }
 .cv__position {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 21px;
   font-weight: 500;
   color: var(--color-black);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .cv__date {
@@ -36,7 +35,7 @@
   line-height: 19px;
   font-weight: 400;
   color: var(--color-gray);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 @media (min-width: 1280px) {
